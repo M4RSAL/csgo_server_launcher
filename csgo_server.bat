@@ -40,8 +40,8 @@ REM Different choices
 echo Select what config you want to load
 echo 1. Start aim_map (128 tick)
 echo 2. Start aim_pistol (128 tick)
-echo 2. Start esl5on5 - COMP (128 tick)
-echo 2. Start Smoke server (64 tick)
+echo 3. Start esl5on5 - COMP (128 tick)
+echo 4. Start Smoke server (64 tick)
 echo 5. Start Smoke server (128 tick)
 
 set servercfg=
