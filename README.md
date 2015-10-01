@@ -1,2 +1,6 @@
 # server_watchdog
-Keeps a server alive 
+Keeps a server alive
+This simple batch file will keep any console running server alive if it crashes
+I have used a csgo server as an example
+
+
