@@ -28,7 +28,8 @@ exit
 :update_server
 cls
 echo (%date%) - (%time%) csgo_server update started...
-steamcmd +login anonymous +force_install_dir c:\users\marcus-pc\desktop\csgo_server\SERVER_1 +app_update 740 validate
+cd C:\Users\Marcus\Desktop\csgo_server\STEAM CMD
+start steamcmd +login anonymous +force_install_dir C:\Users\Marcus\Desktop\csgo_server\server_1\ +app_update 740 +exit
 echo (%date%) - (%time%) csgo_server update is done!
 timeout /t 3
 goto menu
@@ -141,9 +142,3 @@ start /wait srcds.exe srcds -game csgo -console -usercon +game_type 0 +game_mode
 echo (%date%) - (%time%) WARNING: csgo_server crashed, restarting...
 echo (%date%) - (%time%) WARNING: csgo_server crashed, restarting... >>csgo_server_logs/(%date%).txt 
 goto start5
-
-
-
-
-
-
