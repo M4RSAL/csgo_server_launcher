@@ -3,7 +3,7 @@
 cls
 color 0C
 title csgo_server launcher - By M4RSAL
-mkdir Watchdog_logs
+mkdir csgo_server_logs
 
 :menu
 cls
@@ -19,9 +19,11 @@ set /p menu=Make a Selection:
 REM IF STATEMENTS
 IF %menu%==1 goto start_server
 IF %menu%==2 goto update_server
+IF %menu%==q goto exit
 IF NOT %menu%=="" goto menu
 
-
+:exit
+exit
 
 :update_server
 cls
